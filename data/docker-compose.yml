@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./database_scripts:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_DATABASE: "LDS"
+      MYSQL_ROOT_PASSWORD: 'pass'
+      MYSQL_USER: "pass"
+      MYSQL_PASSWORD: "1"
+    networks: 
+      - ifsp
+  web:
+    build: .
+    ports:
+      - "9191:9191"
+    environment:
+        WAIT_HOSTS: db:3306
+        WAIT_HOSTS_TIMEOUT: 60
+    networks: 
+      - ifsp
+networks:
+  ifsp:
+      driver: bridge
+      
