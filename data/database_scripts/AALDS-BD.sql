@@ -91,3 +91,5 @@ create table infra(
     capacidade_esp int not null, /*Capacidade (Nº de alunos)*/
     primary key (id_infra)
 );
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
