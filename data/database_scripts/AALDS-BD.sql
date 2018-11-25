@@ -1,7 +1,3 @@
-create database LDS;
-
-use LDS;
-
 #PLANILHA CURSOS
 
 create table curso (
