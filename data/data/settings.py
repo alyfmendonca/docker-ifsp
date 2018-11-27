@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     # externas
     'rest_framework',
     'rest_framework.authtoken',
+    'corsheaders',
 
     # proprias
     'api',
