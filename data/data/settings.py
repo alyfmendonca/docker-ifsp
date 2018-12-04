@@ -47,6 +47,27 @@ CORS_ORIGIN_REGEX_WHITELIST = (
     'localhost:4200',
 )
 
+CORS_ALLOW_METHODS = (
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+)
+
+CORS_ALLOW_HEADERS = (
+    'accept',
+    'accept-encoding',
+    'authorization',
+    'content-type',
+    'dnt',
+    'origin',
+    'user-agent',
+    'x-csrftoken',
+    'x-requested-with',
+)
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
