@@ -36,4 +36,4 @@ Após a instalação, para iniciar o client do front end, navegue para a pasta �
 * [Alyf Mendonça](https://github.com/alyfmendonca)
 * [Gabriel Dantas](https://github.com/gabdants)
 * [João Gabriel](https://github.com/moregaru)
-* [Caue Matos](https://github.com/caueomatos
+* [Caue Matos](https://github.com/caueomatos)
