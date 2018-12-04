@@ -1,0 +1,37 @@
+<mat-sidenav-container class="main-container">
+  <mat-sidenav mode="side" opened class="my-sidenav">
+    <div class="sidenav-logo">
+      
+    </div>
+    <ul>
+      <a routerLink="/home">
+        <li>Home</li>
+      </a>
+      <a routerLink="/areas">
+        <li>Areas</li>
+      </a>
+      <a routerLink="/base">
+        <li>Base</li>
+      </a>
+      <a routerLink="/curso">
+        <li>Curso</li>
+      </a>
+      <a routerLink="/docentes">
+        <li>Docentes</li>
+      </a>
+      <a routerLink="/infra">
+        <li>Infra</li>
+      </a>
+
+  
+    </ul>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div class="nav-top">
+
+    </div>
+    <div class="container-content">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
