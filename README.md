@@ -17,7 +17,7 @@ Desenvolver um sistema que possa ser utilizado pela secretaria para automatizar 
 Após a instalação, para iniciar a api, navegue para a pasta da memsma e digite o comando `node .`
 
 ## Front
-Após a instalação, para iniciar o client do front end, navegue para a pasta ‘front-end’ e digite o comando `ng serve --open`
+Após a instalação, para iniciar o client do front end, navegue para a pasta ‘front’ e digite o comando `ng serve --open`
 
 
 # Ferramentas
